@@ -56,24 +56,24 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Manuscript ID</label>
-                <p className="text-lg font-mono text-blue-600">COMCOM-D-24-03156</p>
+                <p className="text-lg font-mono text-blue-600">ENGJ-D-24-02847</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Journal</label>
-                <p className="text-lg text-gray-900">Computer Communications</p>
+                <p className="text-lg text-gray-900">Results in Engineering</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Submission Date</label>
                 <div className="flex items-center space-x-2">
                   <Calendar className="w-4 h-4 text-gray-500" />
-                  <p className="text-lg text-gray-900">March 15, 2024</p>
+                  <p className="text-lg text-gray-900">February 20, 2024</p>
                 </div>
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Decision Date</label>
                 <div className="flex items-center space-x-2">
                   <Clock className="w-4 h-4 text-gray-500" />
-                  <p className="text-lg text-gray-900">March 18, 2024</p>
+                  <p className="text-lg text-gray-900">February 23, 2024</p>
                 </div>
               </div>
             </div>
@@ -81,20 +81,20 @@ function App() {
             <div className="mt-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">Title</label>
               <p className="text-lg text-gray-900 leading-relaxed">
-                "Advanced Signal Processing Techniques for 5G Wireless Communication Systems"
+                "MithCap: Multimodal Caption-Guided Fusion Xception Framework for Efficient Arsenic-Induced Skin Disease Diagnosis"
               </p>
             </div>
 
             <div className="mt-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">Submitting & Corresponding Author</label>
               <div className="bg-blue-50 p-4 rounded-lg">
-                <p className="text-lg font-semibold text-gray-900">Maher Ali Rusho*</p>
-                <p className="text-gray-700">Dept. of Lockheed Martin Engineering Management</p>
-                <p className="text-gray-700">University of Colorado, Boulder</p>
-                <p className="text-gray-700">Boulder, Colorado</p>
+                <p className="text-lg font-semibold text-gray-900">Md. Khurshid Jahan*</p>
+                <p className="text-gray-700">Department of Electrical and Computer Engineering</p>
+                <p className="text-gray-700">North South University</p>
+                <p className="text-gray-700">Dhaka, Bangladesh</p>
                 <div className="flex items-center space-x-2 mt-2">
                   <Mail className="w-4 h-4 text-gray-500" />
-                  <span className="text-blue-600">maher.rusho@colorado.edu</span>
+                  <span className="text-blue-600">khurshid.jahan@northsouth.edu</span>
                 </div>
               </div>
             </div>
@@ -103,45 +103,16 @@ function App() {
               <label className="block text-sm font-medium text-gray-700 mb-3">All Authors</label>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Saber Hossain</p>
-                  <p className="text-sm text-gray-600">Department of ECE, North South University</p>
-                  <p className="text-sm text-blue-600">Saberroky@gmail.com</p>
+                  <p className="font-medium text-gray-900">Mithila Arman</p>
+                  <p className="text-sm text-gray-600">Department of CSE, BRAC University</p>
+                  <p className="text-sm text-gray-600">Dhaka, Bangladesh</p>
+                  <p className="text-sm text-blue-600">mithila.arman@g.bracu.ac.bd</p>
                 </div>
                 <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Md Abir Hussain Rohan</p>
-                  <p className="text-sm text-gray-600">Department of ECE, North South University</p>
-                  <p className="text-sm text-blue-600">ab.rohan462@gmail.com</p>
-                </div>
-                <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Kazi Mushfiq Rafid</p>
-                  <p className="text-sm text-gray-600">Department of ECE, North South University</p>
-                  <p className="text-sm text-blue-600">rafid109@gmail.com</p>
-                </div>
-                <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Maher Ali Rusho*</p>
-                  <p className="text-sm text-gray-600">Dept. of Lockheed Martin Engineering Management</p>
-                  <p className="text-sm text-gray-600">University of Colorado, Boulder</p>
-                  <p className="text-sm text-blue-600">maher.rusho@colorado.edu</p>
-                </div>
-                <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">MD. ISTIAQUE AHMED</p>
-                  <p className="text-sm text-gray-600">Department of ECE, North South University</p>
-                  <p className="text-sm text-blue-600">istiaqueahmed000@gmail.com</p>
-                </div>
-                <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Syed Araf Hossain</p>
-                  <p className="text-sm text-gray-600">Department of ECE, North South University</p>
-                  <p className="text-sm text-blue-600">syedaraf.sah@gmail.com</p>
-                </div>
-                <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Abu Mukaddim Rahi</p>
-                  <p className="text-sm text-gray-600">Department of ECE, North South University</p>
-                  <p className="text-sm text-blue-600">mukaddimrahi@gmail.com</p>
-                </div>
-                <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Md. Khurshid Jahan</p>
-                  <p className="text-sm text-gray-600">Deptment of Electrical and Computer Engineering</p>
+                  <p className="font-medium text-gray-900">Md. Khurshid Jahan*</p>
+                  <p className="text-sm text-gray-600">Department of Electrical and Computer Engineering</p>
                   <p className="text-sm text-gray-600">North South University</p>
+                  <p className="text-sm text-gray-600">Dhaka, Bangladesh</p>
                   <p className="text-sm text-blue-600">khurshid.jahan@northsouth.edu</p>
                 </div>
               </div>
@@ -160,21 +131,21 @@ function App() {
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
                   <p className="font-medium text-gray-900">Desk Review Complete</p>
-                  <p className="text-sm text-gray-600">March 18, 2024 - 10:30 AM EST</p>
+                  <p className="text-sm text-gray-600">February 23, 2024 - 2:15 PM BST</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
                   <p className="font-medium text-gray-900">Initial Quality Check Passed</p>
-                  <p className="text-sm text-gray-600">March 16, 2024 - 2:15 PM EST</p>
+                  <p className="text-sm text-gray-600">February 21, 2024 - 11:45 AM BST</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
                   <p className="font-medium text-gray-900">Manuscript Submitted</p>
-                  <p className="text-sm text-gray-600">March 15, 2024 - 4:42 PM EST</p>
+                  <p className="text-sm text-gray-600">February 20, 2024 - 6:30 PM BST</p>
                 </div>
               </div>
             </div>
@@ -236,7 +207,7 @@ function App() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-gray-500" />
-                  <span className="text-gray-700">jcis@elsevier.com</span>
+                  <span className="text-gray-700">resultseng@elsevier.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-gray-500" />
@@ -325,6 +296,9 @@ function App() {
                 <div>
                   <p className="font-semibold text-gray-900">Dear Dr. Maher Ali Rusho,</p>
                 </div>
+                <div>
+                  <p className="font-semibold text-gray-900">Dear Dr. Md. Khurshid Jahan,</p>
+                </div>
 
                 <div className="bg-green-50 border-l-4 border-green-500 p-4">
                   <p className="text-green-800 font-semibold">
@@ -333,24 +307,18 @@ function App() {
                 </div>
 
                 <div className="space-y-3">
-                  <p><strong>Manuscript ID:</strong> COMCOM-D-24-03156</p>
-                  <p><strong>Title:</strong> "Advanced Signal Processing Techniques for 5G Wireless Communication Systems"</p>
-                  <p><strong>Journal:</strong> Computer Communications</p>
-                  <p><strong>Submission Date:</strong> March 15, 2024</p>
-                  <p><strong>Decision Date:</strong> March 18, 2024</p>
+                  <p><strong>Manuscript ID:</strong> ENGJ-D-24-02847</p>
+                  <p><strong>Title:</strong> "MithCap: Multimodal Caption-Guided Fusion Xception Framework for Efficient Arsenic-Induced Skin Disease Diagnosis"</p>
+                  <p><strong>Journal:</strong> Results in Engineering</p>
+                  <p><strong>Submission Date:</strong> February 20, 2024</p>
+                  <p><strong>Decision Date:</strong> February 23, 2024</p>
                 </div>
 
                 <div className="space-y-2">
                   <p><strong>Authors:</strong></p>
                   <div className="ml-4 space-y-1 text-sm">
-                    <p>1. Saber Hossain (Department of ECE, North South University)</p>
-                    <p>2. Md Abir Hussain Rohan (Department of ECE, North South University)</p>
-                    <p>3. Kazi Mushfiq Rafid (Department of ECE, North South University)</p>
-                    <p>4. Maher Ali Rusho* (Dept. of Lockheed Martin Engineering Management, University of Colorado, Boulder)</p>
-                    <p>5. MD. ISTIAQUE AHMED (Department of ECE, North South University)</p>
-                    <p>6. Syed Araf Hossain (Department of ECE, North South University)</p>
-                    <p>7. Abu Mukaddim Rahi (Department of ECE, North South University)</p>
-                    <p>8. Md. Khurshid Jahan (Department of Electrical and Computer Engineering, North South University)</p>
+                    <p>1. Mithila Arman (Department of CSE, BRAC University, Dhaka, Bangladesh)</p>
+                    <p>2. Md. Khurshid Jahan* (Department of Electrical and Computer Engineering, North South University, Dhaka, Bangladesh)</p>
                     <p className="text-xs text-gray-600 mt-2">*Corresponding Author</p>
                   </div>
                 </div>
@@ -358,7 +326,7 @@ function App() {
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <p className="text-blue-800">
                     Your manuscript has successfully passed the initial editorial desk review and meets the journal's 
-                    standards for scope, quality, and technical merit. It will now proceed to the peer review process.
+                    standards for scope, quality, and technical merit in biomedical engineering applications. It will now proceed to the peer review process.
                   </p>
                 </div>
 
@@ -375,17 +343,17 @@ function App() {
                 <div className="border-t border-gray-200 pt-4">
                   <p className="text-sm text-gray-600">
                     If you have any questions regarding your submission, please contact the editorial office 
-                    at <span className="text-blue-600">comcom@elsevier.com</span> and reference your manuscript ID.
+                    at <span className="text-blue-600">resultseng@elsevier.com</span> and reference your manuscript ID.
                   </p>
                 </div>
 
                 <div className="text-center pt-4">
                   <p className="text-sm text-gray-600">
-                    Thank you for choosing Computer Communications for your research publication.
+                    Thank you for choosing Results in Engineering for your research publication.
                   </p>
                   <p className="text-sm font-semibold text-gray-800 mt-2">
                     Editorial Office<br />
-                    Computer Communications<br />
+                    Results in Engineering<br />
                     Elsevier B.V.
                   </p>
                 </div>
