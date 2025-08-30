@@ -90,38 +90,61 @@ function App() {
             <div className="mt-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">Title</label>
               <p className="text-lg text-gray-900 leading-relaxed">
-                "MithCap: Multimodal Caption-Guided Fusion Xception Framework for Efficient Arsenic-Induced Skin Disease Diagnosis"
+                "Process optimization of double-pulsed GMAW using the Taguchi method for enhanced tensile strength"
               </p>
             </div>
 
             <div className="mt-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">Submitting & Corresponding Author</label>
               <div className="bg-blue-50 p-4 rounded-lg">
-                <p className="text-lg font-semibold text-gray-900">Md. Khurshid Jahan*</p>
+                <p className="text-lg font-semibold text-gray-900">Ahmed Faizul Haque Dhrubo*</p>
                 <p className="text-gray-700">Department of Electrical and Computer Engineering</p>
                 <p className="text-gray-700">North South University</p>
                 <p className="text-gray-700">Dhaka, Bangladesh</p>
                 <div className="flex items-center space-x-2 mt-2">
                   <Mail className="w-4 h-4 text-gray-500" />
-                  <span className="text-blue-600">khurshid.jahan@northsouth.edu</span>
+                  <span className="text-blue-600">ahmed.dhrubo@northsouth.edu</span>
                 </div>
               </div>
             </div>
 
             <div className="mt-6">
               <label className="block text-sm font-medium text-gray-700 mb-3">All Authors</label>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Mithila Arman</p>
-                  <p className="text-sm text-gray-600">Department of CSE, BRAC University</p>
-                  <p className="text-sm text-gray-600">Dhaka, Bangladesh</p>
-                  <p className="text-sm text-blue-600">mithila.arman@g.bracu.ac.bd</p>
+                  <p className="font-medium text-gray-900">Ahmed Faizul Haque Dhrubo*</p>
+                  <p className="text-sm text-gray-600">Department of Electrical and Computer Engineering</p>
+                  <p className="text-sm text-gray-600">North South University, Dhaka, Bangladesh</p>
+                  <p className="text-sm text-blue-600">ahmed.dhrubo@northsouth.edu</p>
                 </div>
                 <div className="bg-gray-50 p-3 rounded-lg">
-                  <p className="font-medium text-gray-900">Md. Khurshid Jahan*</p>
+                  <p className="font-medium text-gray-900">Hasan Yıldız</p>
+                  <p className="text-sm text-gray-600">Shantou University</p>
+                  <p className="text-sm text-gray-600">China</p>
+                  <p className="text-sm text-blue-600">hasan.yildiz@stu.edu.cn</p>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <p className="font-medium text-gray-900">Aydın Ülker</p>
+                  <p className="text-sm text-gray-600">Sun Yat-sen University</p>
+                  <p className="text-sm text-gray-600">China</p>
+                  <p className="text-sm text-blue-600">aydin.ulker@mail.sysu.edu.cn</p>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <p className="font-medium text-gray-900">Devrim Erbaytan</p>
+                  <p className="text-sm text-gray-600">Peking University</p>
+                  <p className="text-sm text-gray-600">China</p>
+                  <p className="text-sm text-blue-600">devrim.erbaytan@pku.edu.cn</p>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <p className="font-medium text-gray-900">Sami Sayer</p>
+                  <p className="text-sm text-gray-600">Tsinghua University</p>
+                  <p className="text-sm text-gray-600">China</p>
+                  <p className="text-sm text-blue-600">sami.sayer@tsinghua.edu.cn</p>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <p className="font-medium text-gray-900">Md. Khurshid Jahan</p>
                   <p className="text-sm text-gray-600">Department of Electrical and Computer Engineering</p>
-                  <p className="text-sm text-gray-600">North South University</p>
-                  <p className="text-sm text-gray-600">Dhaka, Bangladesh</p>
+                  <p className="text-sm text-gray-600">North South University, Dhaka, Bangladesh</p>
                   <p className="text-sm text-blue-600">khurshid.jahan@northsouth.edu</p>
                 </div>
               </div>
@@ -139,22 +162,36 @@ function App() {
               <div className="flex items-center space-x-4">
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
-                  <p className="font-medium text-gray-900">Desk Review Complete</p>
-                  <p className="text-sm text-gray-600">February 23, 2024 - 2:15 PM BST</p>
+                  <p className="font-medium text-gray-900">Manuscript Accepted for Publication</p>
+                  <p className="text-sm text-gray-600">August 30, 2025 - 3:45 PM BST</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-4">
+                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                <div className="flex-1">
+                  <p className="font-medium text-gray-900">Peer Review Complete</p>
+                  <p className="text-sm text-gray-600">August 15, 2025 - 10:30 AM BST</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-4">
+                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                <div className="flex-1">
+                  <p className="font-medium text-gray-900">Under Peer Review</p>
+                  <p className="text-sm text-gray-600">March 5, 2025 - 9:20 AM BST</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
                   <p className="font-medium text-gray-900">Initial Quality Check Passed</p>
-                  <p className="text-sm text-gray-600">February 21, 2024 - 11:45 AM BST</p>
+                  <p className="text-sm text-gray-600">February 25, 2025 - 11:45 AM BST</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
                   <p className="font-medium text-gray-900">Manuscript Submitted</p>
-                  <p className="text-sm text-gray-600">February 20, 2024 - 6:30 PM BST</p>
+                  <p className="text-sm text-gray-600">February 20, 2025 - 6:30 PM BST</p>
                 </div>
               </div>
             </div>
@@ -162,21 +199,21 @@ function App() {
         </div>
 
         {/* Next Steps */}
-        <div className="bg-blue-50 rounded-lg border border-blue-200 mb-8">
+        <div className="bg-green-50 rounded-lg border border-green-200 mb-8">
           <div className="p-6">
-            <h2 className="text-xl font-semibold text-blue-900 mb-4">Next Steps</h2>
+            <h2 className="text-xl font-semibold text-green-900 mb-4">Publication Process</h2>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
-                <p className="text-blue-800">Your manuscript will now be assigned to peer reviewers. This process typically takes 2-4 weeks.</p>
+                <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
+                <p className="text-green-800">Your manuscript will proceed to copy editing and typesetting for publication.</p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
-                <p className="text-blue-800">You will receive an email notification once reviewer reports are available.</p>
+                <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
+                <p className="text-green-800">You will receive proofs for final review before publication.</p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
-                <p className="text-blue-800">Monitor your submission status through the Editorial Manager system.</p>
+                <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
+                <p className="text-green-800">Your article will be published online and assigned a DOI.</p>
               </div>
             </div>
           </div>
@@ -245,14 +282,14 @@ function App() {
             <div className="p-6">
               <div className="space-y-3 text-sm text-gray-700">
                 <p>• Please save this confirmation for your records</p>
-                <p>• Do not submit additional versions unless requested</p>
-                <p>• Check your email regularly for reviewer feedback</p>
-                <p>• Response time for peer review: 6-8 weeks</p>
+                <p className="text-sm text-gray-600">• Your manuscript is now in production</p>
+                <p className="text-sm text-gray-600">• Check your email for proof corrections</p>
+                <p className="text-sm text-gray-600">• Expected publication: Within 4-6 weeks</p>
               </div>
               <div className="mt-4 pt-4 border-t border-gray-200">
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span className="text-sm text-gray-600">Status: Under Review</span>
+                  <span className="text-sm text-gray-600">Status: Accepted for Publication</span>
                 </div>
               </div>
             </div>
@@ -275,7 +312,7 @@ function App() {
           <div className="bg-white rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
             {/* Modal Header */}
             <div className="flex justify-between items-center p-6 border-b border-gray-200">
-              <h2 className="text-2xl font-bold text-gray-900">Desk Acceptance Confirmation</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Publication Acceptance Confirmation</h2>
               <div className="flex items-center space-x-2">
                 <button
                   onClick={handlePrintConfirmation}
@@ -304,61 +341,63 @@ function App() {
                   <span className="text-3xl font-bold text-gray-900">Elsevier</span>
                 </div>
                 <p className="text-gray-600">Computer Communications Editorial Office</p>
-                <p className="text-sm text-gray-500">Date: March 18, 2024</p>
+                <p className="text-sm text-gray-500">Date: August 30, 2025</p>
               </div>
 
               {/* Letter Content */}
               <div className="space-y-4">
                 <div>
-                  <p className="font-semibold text-gray-900">Dear Dr. Maher Ali Rusho,</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-gray-900">Dear Dr. Md. Khurshid Jahan,</p>
+                  <p className="font-semibold text-gray-900">Dear Dr. Ahmed Faizul Haque Dhrubo,</p>
                 </div>
 
                 <div className="bg-green-50 border-l-4 border-green-500 p-4">
                   <p className="text-green-800 font-semibold">
-                    We are pleased to inform you that your manuscript has been accepted for peer review.
+                    We are delighted to inform you that your manuscript has been accepted for publication in Results in Engineering.
                   </p>
                 </div>
 
                 <div className="space-y-3">
                   <p><strong>Manuscript ID:</strong> ENGJ-D-24-02847</p>
-                  <p><strong>Title:</strong> "MithCap: Multimodal Caption-Guided Fusion Xception Framework for Efficient Arsenic-Induced Skin Disease Diagnosis"</p>
+                  <p><strong>Title:</strong> "Process optimization of double-pulsed GMAW using the Taguchi method for enhanced tensile strength"</p>
                   <p><strong>Journal:</strong> Results in Engineering</p>
-                  <p><strong>Submission Date:</strong> February 20, 2024</p>
-                  <p><strong>Decision Date:</strong> February 23, 2024</p>
+                  <p><strong>Submission Date:</strong> February 20, 2025</p>
+                  <p><strong>Acceptance Date:</strong> August 30, 2025</p>
                 </div>
 
                 <div className="space-y-2">
                   <p><strong>Authors:</strong></p>
                   <div className="ml-4 space-y-1 text-sm">
-                    <p>1. Mithila Arman (Department of CSE, BRAC University, Dhaka, Bangladesh)</p>
-                    <p>2. Md. Khurshid Jahan* (Department of Electrical and Computer Engineering, North South University, Dhaka, Bangladesh)</p>
+                    <p>1. Ahmed Faizul Haque Dhrubo* (Department of Electrical and Computer Engineering, North South University, Dhaka, Bangladesh)</p>
+                    <p>2. Hasan Yıldız (Shantou University, China)</p>
+                    <p>3. Aydın Ülker (Sun Yat-sen University, China)</p>
+                    <p>4. Devrim Erbaytan (Peking University, China)</p>
+                    <p>5. Sami Sayer (Tsinghua University, China)</p>
+                    <p>6. Md. Khurshid Jahan (Department of Electrical and Computer Engineering, North South University, Dhaka, Bangladesh)</p>
                     <p className="text-xs text-gray-600 mt-2">*Corresponding Author</p>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <p className="text-blue-800">
-                    Your manuscript has successfully passed the initial editorial desk review and meets the journal's 
-                    standards for scope, quality, and technical merit in biomedical engineering applications. It will now proceed to the peer review process.
+                    Your manuscript has successfully completed the peer review process and has been accepted for publication. 
+                    The reviewers and editorial board were impressed with your research on GMAW process optimization using the Taguchi method, 
+                    which represents a significant contribution to manufacturing engineering.
                   </p>
                 </div>
 
                 <div className="space-y-2">
                   <p><strong>Next Steps:</strong></p>
                   <ul className="ml-4 space-y-1 text-sm list-disc">
-                    <li>Your manuscript will be assigned to qualified peer reviewers</li>
-                    <li>The peer review process typically takes 6-8 weeks</li>
-                    <li>You will receive email notifications at each stage of the review</li>
-                    <li>Please monitor your submission through Editorial Manager</li>
+                    <li>Your manuscript will proceed to copy editing and typesetting</li>
+                    <li>You will receive proofs for final review within 2-3 weeks</li>
+                    <li>The article will be published online upon proof approval</li>
+                    <li>A DOI will be assigned for citation purposes</li>
                   </ul>
                 </div>
 
                 <div className="border-t border-gray-200 pt-4">
                   <p className="text-sm text-gray-600">
-                    If you have any questions regarding your submission, please contact the editorial office 
+                    If you have any questions regarding the publication process, please contact the editorial office 
                     at <span className="text-blue-600">resultseng@elsevier.com</span> and reference your manuscript ID.
                   </p>
                 </div>
@@ -442,13 +481,13 @@ function App() {
                     <div>
                       <p><strong>Manuscript ID:</strong> ENGJ-D-24-02847</p>
                       <p><strong>Journal:</strong> Results in Engineering</p>
-                      <p><strong>Submission Date:</strong> February 20, 2024</p>
-                      <p><strong>Status:</strong> Under Review</p>
+                      <p><strong>Submission Date:</strong> February 20, 2025</p>
+                      <p><strong>Status:</strong> Accepted for Publication</p>
                     </div>
                     <div>
                       <p><strong>Article Type:</strong> Research Article</p>
-                      <p><strong>Subject Area:</strong> Biomedical Engineering</p>
-                      <p><strong>Keywords:</strong> Machine Learning, Medical Imaging, Disease Diagnosis</p>
+                      <p><strong>Subject Area:</strong> Manufacturing Engineering</p>
+                      <p><strong>Keywords:</strong> GMAW, Taguchi Method, Process Optimization, Tensile Strength</p>
                     </div>
                   </div>
                 </div>
@@ -456,7 +495,7 @@ function App() {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Title</h3>
                   <p className="text-gray-800 text-lg leading-relaxed bg-gray-50 p-4 rounded-lg">
-                    "MithCap: Multimodal Caption-Guided Fusion Xception Framework for Efficient Arsenic-Induced Skin Disease Diagnosis"
+                    "Process optimization of double-pulsed GMAW using the Taguchi method for enhanced tensile strength"
                   </p>
                 </div>
 
@@ -464,27 +503,51 @@ function App() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Author Information</h3>
                   
                   <div className="space-y-4">
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-900 mb-2">First Author</h4>
-                      <p className="font-medium text-gray-900">Mithila Arman</p>
-                      <p className="text-gray-700">Department of Computer Science and Engineering</p>
-                      <p className="text-gray-700">BRAC University</p>
+                    <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-blue-900 mb-2">Corresponding & Submitting Author</h4>
+                      <p className="font-medium text-gray-900">Ahmed Faizul Haque Dhrubo*</p>
+                      <p className="text-gray-700">Department of Electrical and Computer Engineering</p>
+                      <p className="text-gray-700">North South University</p>
                       <p className="text-gray-700">Dhaka, Bangladesh</p>
                       <div className="flex items-center space-x-2 mt-2">
                         <Mail className="w-4 h-4 text-gray-500" />
-                        <span className="text-blue-600">mithila.arman@g.bracu.ac.bd</span>
+                        <span className="text-blue-600">ahmed.dhrubo@northsouth.edu</span>
                       </div>
                     </div>
 
-                    <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-                      <h4 className="font-semibold text-blue-900 mb-2">Corresponding & Submitting Author</h4>
-                      <p className="font-medium text-gray-900">Md. Khurshid Jahan*</p>
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Co-Authors</h4>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div>
+                          <p className="font-medium text-gray-900">Hasan Yıldız</p>
+                          <p className="text-sm text-gray-700">Shantou University, China</p>
+                          <p className="text-sm text-blue-600">hasan.yildiz@stu.edu.cn</p>
+                        </div>
+                        <div>
+                          <p className="font-medium text-gray-900">Aydın Ülker</p>
+                          <p className="text-sm text-gray-700">Sun Yat-sen University, China</p>
+                          <p className="text-sm text-blue-600">aydin.ulker@mail.sysu.edu.cn</p>
+                        </div>
+                        <div>
+                          <p className="font-medium text-gray-900">Devrim Erbaytan</p>
+                          <p className="text-sm text-gray-700">Peking University, China</p>
+                          <p className="text-sm text-blue-600">devrim.erbaytan@pku.edu.cn</p>
+                        </div>
+                        <div>
+                          <p className="font-medium text-gray-900">Sami Sayer</p>
+                          <p className="text-sm text-gray-700">Tsinghua University, China</p>
+                          <p className="text-sm text-blue-600">sami.sayer@tsinghua.edu.cn</p>
+                        </div>
+                      </div>
+                      <div className="mt-3 pt-3 border-t border-gray-200">
+                        <p className="font-medium text-gray-900">Md. Khurshid Jahan</p>
                       <p className="text-gray-700">Department of Electrical and Computer Engineering</p>
                       <p className="text-gray-700">North South University</p>
                       <p className="text-gray-700">Dhaka, Bangladesh</p>
                       <div className="flex items-center space-x-2 mt-2">
                         <Mail className="w-4 h-4 text-gray-500" />
                         <span className="text-blue-600">khurshid.jahan@northsouth.edu</span>
+                      </div>
                       </div>
                     </div>
                   </div>
@@ -494,13 +557,14 @@ function App() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Abstract</h3>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <p className="text-gray-800 leading-relaxed">
-                      This research presents MithCap, a novel multimodal caption-guided fusion framework based on the Xception architecture 
-                      for efficient diagnosis of arsenic-induced skin diseases. The proposed framework integrates visual features from 
-                      dermatological images with textual descriptions to enhance diagnostic accuracy. Through comprehensive evaluation on 
-                      clinical datasets, MithCap demonstrates superior performance in identifying arsenic-related skin conditions, 
-                      achieving significant improvements in sensitivity and specificity compared to traditional single-modal approaches. 
-                      The framework's efficiency and accuracy make it suitable for deployment in resource-constrained healthcare environments, 
-                      particularly in regions affected by arsenic contamination.
+                      This study presents a comprehensive optimization approach for double-pulsed Gas Metal Arc Welding (GMAW) 
+                      using the Taguchi method to enhance tensile strength of welded joints. The research investigates the effects 
+                      of key welding parameters including pulse frequency, background current, peak current, and travel speed on 
+                      the mechanical properties of the weld. Through systematic experimentation using L16 orthogonal array design, 
+                      optimal parameter combinations were identified that significantly improve tensile strength while maintaining 
+                      weld quality. The results demonstrate that the Taguchi method provides an efficient approach for process 
+                      optimization in advanced welding applications, offering substantial improvements in joint strength and 
+                      manufacturing efficiency for industrial applications.
                     </p>
                   </div>
                 </div>
@@ -511,39 +575,53 @@ function App() {
                     <div className="flex items-center space-x-4">
                       <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                       <div>
-                        <p className="font-medium text-gray-900">Desk Review Complete - Accepted for Peer Review</p>
-                        <p className="text-sm text-gray-600">February 23, 2024 - 2:15 PM BST</p>
+                        <p className="font-medium text-gray-900">Manuscript Accepted for Publication</p>
+                        <p className="text-sm text-gray-600">August 30, 2025 - 3:45 PM BST</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center space-x-4">
+                      <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                      <div>
+                        <p className="font-medium text-gray-900">Peer Review Complete - Recommended for Acceptance</p>
+                        <p className="text-sm text-gray-600">August 15, 2025 - 10:30 AM BST</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center space-x-4">
+                      <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                      <div>
+                        <p className="font-medium text-gray-900">Under Peer Review</p>
+                        <p className="text-sm text-gray-600">March 5, 2025 - 9:20 AM BST</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-4">
                       <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                       <div>
                         <p className="font-medium text-gray-900">Initial Quality Check Passed</p>
-                        <p className="text-sm text-gray-600">February 21, 2024 - 11:45 AM BST</p>
+                        <p className="text-sm text-gray-600">February 25, 2025 - 11:45 AM BST</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-4">
                       <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                       <div>
-                        <p className="font-medium text-gray-900">Manuscript Submitted by Md. Khurshid Jahan</p>
-                        <p className="text-sm text-gray-600">February 20, 2024 - 6:30 PM BST</p>
+                        <p className="font-medium text-gray-900">Manuscript Submitted by Ahmed Faizul Haque Dhrubo</p>
+                        <p className="text-sm text-gray-600">February 20, 2025 - 6:30 PM BST</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-                  <h3 className="text-lg font-semibold text-yellow-800 mb-2">Current Status</h3>
-                  <p className="text-yellow-700">
-                    Your manuscript is currently under peer review. The editorial office is in the process of 
-                    identifying and inviting qualified reviewers in the field of biomedical engineering and 
-                    machine learning applications in healthcare.
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <h3 className="text-lg font-semibold text-green-800 mb-2">Current Status</h3>
+                  <p className="text-green-700">
+                    Your manuscript has been accepted for publication and is now in the production phase. 
+                    The copy editing and typesetting process will begin shortly, and you will receive 
+                    proofs for final review before online publication.
                   </p>
                 </div>
 
                 <div className="border-t border-gray-200 pt-4">
                   <p className="text-sm text-gray-600 text-center">
-                    This submission report was generated on March 18, 2024<br />
+                    This submission report was generated on August 30, 2025<br />
                     For questions, contact: <span className="text-blue-600">resultseng@elsevier.com</span>
                   </p>
                 </div>
