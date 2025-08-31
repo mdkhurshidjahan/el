@@ -42,7 +42,7 @@ function App() {
             <CheckCircle className="w-8 h-8 text-green-600" />
             <div>
               <h1 className="text-2xl font-bold text-green-800">Manuscript Accepted for Review</h1>
-              <p className="text-green-700 mt-1">Your submission has successfully passed the initial editorial desk review</p>
+              <p className="text-green-700 mt-1">Your submission has successfully passed the initial editorial desk review and will proceed to peer review</p>
             </div>
           </div>
         </div>
@@ -56,24 +56,24 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Manuscript ID</label>
-                <p className="text-lg font-mono text-blue-600">COMCOM-D-24-03156</p>
+                <p className="text-lg font-mono text-blue-600">RINENG-D-24-02847</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Journal</label>
-                <p className="text-lg text-gray-900">Computer Communications</p>
+                <p className="text-lg text-gray-900">Results in Engineering</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Submission Date</label>
                 <div className="flex items-center space-x-2">
                   <Calendar className="w-4 h-4 text-gray-500" />
-                  <p className="text-lg text-gray-900">March 15, 2024</p>
+                  <p className="text-lg text-gray-900">July 29, 2024</p>
                 </div>
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Decision Date</label>
                 <div className="flex items-center space-x-2">
                   <Clock className="w-4 h-4 text-gray-500" />
-                  <p className="text-lg text-gray-900">March 18, 2024</p>
+                  <p className="text-lg text-gray-900">August 16, 2024</p>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@ function App() {
             <div className="mt-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">Title</label>
               <p className="text-lg text-gray-900 leading-relaxed">
-                "Advanced Signal Processing Techniques for 5G Wireless Communication Systems"
+                "MultiModal Meme Hateful Detection: A Comparative Study on Visual Language Models and Fusion Architectures"
               </p>
             </div>
 
@@ -160,21 +160,21 @@ function App() {
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
                   <p className="font-medium text-gray-900">Desk Review Complete</p>
-                  <p className="text-sm text-gray-600">March 18, 2024 - 10:30 AM EST</p>
+                  <p className="text-sm text-gray-600">August 16, 2024 - 2:15 PM EST</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
                   <p className="font-medium text-gray-900">Initial Quality Check Passed</p>
-                  <p className="text-sm text-gray-600">March 16, 2024 - 2:15 PM EST</p>
+                  <p className="text-sm text-gray-600">August 14, 2024 - 11:45 AM EST</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div className="flex-1">
                   <p className="font-medium text-gray-900">Manuscript Submitted</p>
-                  <p className="text-sm text-gray-600">March 15, 2024 - 4:42 PM EST</p>
+                  <p className="text-sm text-gray-600">July 29, 2024 - 3:28 PM EST</p>
                 </div>
               </div>
             </div>
@@ -236,7 +236,7 @@ function App() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-gray-500" />
-                  <span className="text-gray-700">jcis@elsevier.com</span>
+                  <span className="text-gray-700">rineng@elsevier.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-gray-500" />
@@ -316,8 +316,8 @@ function App() {
                   </div>
                   <span className="text-3xl font-bold text-gray-900">Elsevier</span>
                 </div>
-                <p className="text-gray-600">Computer Communications Editorial Office</p>
-                <p className="text-sm text-gray-500">Date: March 18, 2024</p>
+                <p className="text-gray-600">Results in Engineering Editorial Office</p>
+                <p className="text-sm text-gray-500">Date: August 16, 2024</p>
               </div>
 
               {/* Letter Content */}
@@ -333,11 +333,11 @@ function App() {
                 </div>
 
                 <div className="space-y-3">
-                  <p><strong>Manuscript ID:</strong> COMCOM-D-24-03156</p>
-                  <p><strong>Title:</strong> "Advanced Signal Processing Techniques for 5G Wireless Communication Systems"</p>
-                  <p><strong>Journal:</strong> Computer Communications</p>
-                  <p><strong>Submission Date:</strong> March 15, 2024</p>
-                  <p><strong>Decision Date:</strong> March 18, 2024</p>
+                  <p><strong>Manuscript ID:</strong> RINENG-D-24-02847</p>
+                  <p><strong>Title:</strong> "MultiModal Meme Hateful Detection: A Comparative Study on Visual Language Models and Fusion Architectures"</p>
+                  <p><strong>Journal:</strong> Results in Engineering</p>
+                  <p><strong>Submission Date:</strong> July 29, 2024</p>
+                  <p><strong>Decision Date:</strong> August 16, 2024</p>
                 </div>
 
                 <div className="space-y-2">
@@ -375,17 +375,17 @@ function App() {
                 <div className="border-t border-gray-200 pt-4">
                   <p className="text-sm text-gray-600">
                     If you have any questions regarding your submission, please contact the editorial office 
-                    at <span className="text-blue-600">comcom@elsevier.com</span> and reference your manuscript ID.
+                    at <span className="text-blue-600">rineng@elsevier.com</span> and reference your manuscript ID.
                   </p>
                 </div>
 
                 <div className="text-center pt-4">
                   <p className="text-sm text-gray-600">
-                    Thank you for choosing Computer Communications for your research publication.
+                    Thank you for choosing Results in Engineering for your research publication.
                   </p>
                   <p className="text-sm font-semibold text-gray-800 mt-2">
                     Editorial Office<br />
-                    Computer Communications<br />
+                    Results in Engineering<br />
                     Elsevier B.V.
                   </p>
                 </div>
