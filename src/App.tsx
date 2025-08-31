@@ -81,7 +81,7 @@ function App() {
             <div className="mt-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">Title</label>
               <p className="text-lg text-gray-900 leading-relaxed">
-                "MultiModal Meme Hateful Detection: A Comparative Study on Visual Language Models and Fusion Architectures"
+                "MultiModal Meme Hateful Detection: A Comparative Study on Visual Language Models and Fusion Architectures 2025"
               </p>
             </div>
 
@@ -334,7 +334,7 @@ function App() {
 
                 <div className="space-y-3">
                   <p><strong>Manuscript ID:</strong> RINENG-D-24-02847</p>
-                  <p><strong>Title:</strong> "MultiModal Meme Hateful Detection: A Comparative Study on Visual Language Models and Fusion Architectures"</p>
+                  <p><strong>Title:</strong> "MultiModal Meme Hateful Detection: A Comparative Study on Visual Language Models and Fusion Architectures 2025"</p>
                   <p><strong>Journal:</strong> Results in Engineering</p>
                   <p><strong>Submission Date:</strong> July 29, 2024</p>
                   <p><strong>Decision Date:</strong> August 16, 2024</p>
